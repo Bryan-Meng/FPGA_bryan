@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AskDemod.srcs/sources_1/new/AskDemod.v" \
+"../../../../AskDemod.srcs/sources_1/new/BitSync.v" \
+"../../../../AskDemod.srcs/sources_1/new/ClkTrans.v" \
+"../../../../AskDemod.srcs/sources_1/new/Control.v" \
+"../../../../AskDemod.srcs/sources_1/new/DifferPD.v" \
+"../../../../AskDemod.srcs/sources_1/new/FreqDiv.v" \
+"../../../../AskDemod.srcs/sources_1/new/Gate.v" \
+"../../../../AskDemod.srcs/sources_1/new/monostable.v" \
+"../../../../AskDemod.srcs/sources_1/new/top.v" \
+"../../../../AskDemod.srcs/sim_1/new/tb_AskDemode.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

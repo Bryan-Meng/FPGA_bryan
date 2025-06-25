@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.gen/sources_1/ip/lpf/sim/lpf.vhd,1749646792,vhdl,,,,lpf,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sim_1/new/tb_AskDemode.v,1750510405,verilog,,,,tb_AskDemode,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/AskDemod.v,1749646873,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/BitSync.v,,AskDemod,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/BitSync.v,1750336462,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/ClkTrans.v,,BitSync,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/ClkTrans.v,1750336467,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/Control.v,,ClkTrans,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/Control.v,1750336466,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/DifferPD.v,,Control,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/DifferPD.v,1750681576,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/FreqDiv.v,,DifferPD,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/FreqDiv.v,1750682804,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/Gate.v,,FreqDiv,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/Gate.v,1749737407,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/monostable.v,,Gate,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/monostable.v,1750336464,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/top.v,,monostable,,,,,,,,
+/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sources_1/new/top.v,1750339017,verilog,,/home/bryan/workspace/AXU3EG/vivado/AskDemod/AskDemod.srcs/sim_1/new/tb_AskDemode.v,,top,,,,,,,,
