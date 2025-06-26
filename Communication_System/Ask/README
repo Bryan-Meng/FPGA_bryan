@@ -1,1 +1,3 @@
-
+Ask调制和解调代码是按照杜勇老师的《数字调制解调技术的MATLAB与FPGA实现-Xilinx/VHDL版》作为参考实现的
+工具版本：Xilinx 2024.2,所有代码采用Verilog编写，仿真采用Vivado自带的仿真器，整个工程包含了testbench
+调制代码包含2Ask和4Ask，具体代码讲解参阅AskMod和AskDmod文件夹的README
