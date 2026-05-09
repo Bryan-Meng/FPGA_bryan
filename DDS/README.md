@@ -11,19 +11,20 @@ Verilog 实现 DDS 核心
 * testbench 仿真
 * 输出数据保存成 .txt，用 Python/MATLAB 画图验证
 
-V2：加入寄存器配置接口
-目标：让 DDS 参数不再写死，而是通过寄存器配置
-增加：
-CTRL_REG
-FREQ_WORD
-PHASE_OFFSET
-AMP_WORD
-DC_OFFSET
-WAVE_TYPE
+# V2：加入寄存器配置接口
+## 目标
+让 DDS 参数不再写死，而是通过寄存器配置
+## 增加
+* CTRL_REG
+* FREQ_WORD
+* PHASE_OFFSET
+* AMP_WORD
+* DC_OFFSET
+* WAVE_TYPE
 
-V3：封装成 AXI-Lite IP
-目标：把 DDS 变成 ZYNQ PS 可以访问的自定义 IP
-也就是：
+# V3：封装成 AXI-Lite IP
+# 目标
+把 DDS 变成 ZYNQ PS 可以访问的自定义 IP
 PS端 C程序
    ↓
 AXI-Lite
@@ -32,8 +33,9 @@ DDS寄存器
    ↓
 PL端生成波形
 
-V4：加入 LCD GUI
-目标：用屏幕手动配置 DDS 参数
+# V4：加入 LCD GUI
+## 目标
+用屏幕手动配置 DDS 参数
 GUI 界面可以设计成：
 ┌─────────────────────────────┐
 │ DDS 任意波形生成器           │
@@ -48,13 +50,13 @@ GUI 界面可以设计成：
 │ [相位清零] [加载任意波形]    │
 └─────────────────────────────┘
 
-V5：真正任意波形加载
-目标：GUI 可以加载或编辑任意波形采样点
+# V5：真正任意波形加载
+## 目标
+GUI 可以加载或编辑任意波形采样点
 支持方式可以有三种：
 方式	说明	难度
 内置几种波形	正弦、方波、三角、锯齿、阶梯波	低
 GUI 生成数学波形	输入表达式或参数后生成 LUT	中
 文件导入	从 .txt / .csv 读取波形点	中高
 手绘波形	LCD 上触摸绘制波形	高
-第一版任意波形建议先做：从 PS 端写入 1024 个 16 bit 采样点到 PL 端 RAM
-这就已经是标准 AWG 思路了。
+第一版任意波先做：从 PS 端写入 1024 个 16 bit 采样点到 PL 端 RAM
