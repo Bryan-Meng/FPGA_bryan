@@ -1,4 +1,4 @@
-V1：纯 RTL DDS 内核
+# V1：纯 RTL DDS 内核
 目标：Verilog 实现 DDS 核心
 完成：
 相位累加器；
