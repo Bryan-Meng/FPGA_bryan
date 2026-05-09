@@ -25,6 +25,7 @@ Verilog 实现 DDS 核心
 # V3：封装成 AXI-Lite IP
 # 目标
 把 DDS 变成 ZYNQ PS 可以访问的自定义 IP
+```text
 PS端 C程序
    ↓
 AXI-Lite
@@ -32,6 +33,7 @@ AXI-Lite
 DDS寄存器
    ↓
 PL端生成波形
+```
 
 # V4：加入 LCD GUI
 ## 目标
